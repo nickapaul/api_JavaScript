@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "chai": "^4.3.7",
+    "faker": "^5.5.3",
+    "fetch": "^1.1.0",
+    "json-bigint": "^1.0.0",
+    "mocha": "^10.2.0"
+  },
+  "name": "js_api",
+  "version": "1.0.0",
+  "description": "This is a demo of API testing in JavaScript",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha || true"
+  },
+  "author": "",
+  "license": "ISC"
+}
