@@ -5,7 +5,7 @@ const helper = require('../helpers/petStoreHelper');
 describe('Pet Store API tests', () => {
     it('Given pet is created, then pet is retrieved by Id', async () => {
         // Arrange        
-        var pname = faker.name.firstName();
+        var pname = faker.name.firstName()
 
         // Act
         let petId = await helper.createPetAndGetId(pname) 

@@ -13,7 +13,6 @@
   "directories": {
     "test": "test"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "mocha || true"
   },
